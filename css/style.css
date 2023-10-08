@@ -2164,11 +2164,11 @@ input:checked ~ nav ul li {
   top: 39%;
 }
 .information{
-  height: 657px;
+  height: 730px;
   margin-bottom: 0;
 }
 .information__item {
-  grid-template-columns: 414px;
+  grid-template-columns: 420px;
   gap: 0;
   margin-top: 70px;
 }
@@ -2178,7 +2178,7 @@ input:checked ~ nav ul li {
 .information__item-img {
   grid-area: 1 / 1 / 2 / 2;
   width: 100%;
-  height: 175px;
+  height: 260px;
   margin-bottom: 20px;
   border-radius: 0;
 }
@@ -2243,7 +2243,7 @@ input:checked ~ nav ul li {
 }
 .vector-2__slider-2-mobile-img{
   width: 280px;
-  height: 266px;
+  height: 250px;
   position: absolute;
 }
 .vector-2__slider-3-mobile-img{
@@ -2286,10 +2286,9 @@ input:checked ~ nav ul li {
 .item{
   font-size: 16px;
   line-height: 22.4px;
-  width: 255px;
+  width: 100%;
   font-size: 16px;
   margin-left: 0;
-  margin: 0 auto;
 }
 .item.active{
   margin-bottom: 20px;
@@ -2311,7 +2310,7 @@ input:checked ~ nav ul li {
   max-height: 100%;
 }
 .image__offers-mobile {
-  height: 260px;
+  height: 320px;
   margin-bottom: 10px;
 }
 .image-container {
@@ -2436,14 +2435,14 @@ p{
 }
 .tabs__content-img {
   width: 100%; /* Изображение занимает всю ширину столбца */
-  height: 100%;
+  height: 320px;
   margin-left: 0;
   margin-bottom: 0;
 }
 .content-image{
   margin-top: 0;
   width: auto;
-  height: 260px;
+  height: 320px;
   margin-bottom: 20px;
 }
 #svglog{
@@ -2485,8 +2484,8 @@ p{
   background-color: #547E32;
 }
 .gallery__swiper-img {
-  width: 280px;
-  height: 260px;
+  width: 285px;
+  height: 320px;
 }
 .swiper-button-prev-2,
 .swiper-button-next-2 {
@@ -2562,6 +2561,9 @@ p{
 .recrutation__item{
   margin: 0 auto;
 }
+.recrutation__item-img{
+  height: 320px;
+}
 .recrutation__item-text{
   height: 130px;
   padding-bottom: 0;
@@ -2634,6 +2636,7 @@ p{
 
 .contacts-img {
   width: 100%;
+  height: 320px;
 }
 .contacts__horizontal-card{
   width: 100%;
