@@ -2168,7 +2168,7 @@ input:checked ~ nav ul li {
   margin-bottom: 0;
 }
 .information__item {
-  grid-template-columns: 320px;
+  grid-template-columns: 414px;
   gap: 0;
   margin-top: 70px;
 }
@@ -2307,16 +2307,15 @@ input:checked ~ nav ul li {
   flex-direction: column;
   margin: 0 auto;
   margin-top: 10px;
-  width: 280px;
+  width: auto;
   max-height: 100%;
 }
 .image__offers-mobile {
-  width: 280px;
   height: 260px;
   margin-bottom: 10px;
 }
 .image-container {
-  width: 280px;
+  width: 414px;
   height: auto;
   margin: 0 auto;
 }
@@ -2324,10 +2323,10 @@ input:checked ~ nav ul li {
   max-height: 0;
   overflow: hidden;
   margin-left: 0;
-  width: 490px;
+  width: 100%;
 }
 .offers__text {
-  width: 280px;
+  width: 100%;
   display: flex;
   height: auto;
   align-items: center;
@@ -2359,7 +2358,7 @@ p{
 .quote__text {
   font-size: 20px;
   line-height: 32px;
-  padding: 80px 10px 12px;
+  padding: 80px 0px 12px;
   font-weight: 500;
   margin-bottom: 0;
 }
@@ -2426,12 +2425,14 @@ p{
   justify-content: center;
 }
 .tabs {
-  grid-template-columns: 280px;
+  grid-template-columns: 100%;
   margin-left: 0;
   justify-content: center;
+  margin-bottom: -50px;
 }
 .tabs__content-box{
   margin-left: 0;
+  width: auto;
 }
 .tabs__content-img {
   width: 100%; /* Изображение занимает всю ширину столбца */
@@ -2441,7 +2442,7 @@ p{
 }
 .content-image{
   margin-top: 0;
-  width: 280px;
+  width: auto;
   height: 260px;
   margin-bottom: 20px;
 }
@@ -2454,7 +2455,7 @@ p{
   margin-bottom: 6px;
 }
 .organization-text{
-  width: 280px;
+  width: 100%;
   margin-bottom: 0;
 }
 #svgsteps-1, #svgsteps-2, 
@@ -2497,7 +2498,7 @@ p{
   width: 88px;
   height: 109px;
   left: 70%;
-  top: 25px;
+  top: -10px;
 }
 #steps-mobile-2{
   position: relative;
@@ -2548,7 +2549,7 @@ p{
   margin-bottom: 0;
 }
 .recrutation{
-  height: 2019px;
+  height: auto;
   background-image: url("../images/bg-recrutation-kids-mobile.svg");
   margin: 0 auto;
   margin-bottom: 76px;
@@ -2561,13 +2562,8 @@ p{
 .recrutation__item{
   margin: 0 auto;
 }
-.recrutation__item-img{
-  width: 280px;
-  height: 260px;
-}
 .recrutation__item-text{
-  width: 280px;
-  height: 150px;
+  height: 130px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -2576,7 +2572,7 @@ p{
 }
 .recrutation__btn {
   height: 46px;
-  width: 280px;
+  width: 392px;
   padding: 8px 24px;
   margin-top: 30px;
 }
@@ -2587,6 +2583,13 @@ p{
 .team {
   margin-bottom: 100px;
 }
+
+.team-card-1, .team-card-2, .team-card-3, .team-card-4,
+.team-card-5, .team-card-6, .team-card-7, .team-card-8,
+.team-card-9, .team-card-10, .team-card-11{
+  width: 414px;
+}
+
 .row {
   display: flex;
   flex-direction: column;
@@ -2594,27 +2597,16 @@ p{
   margin: 0;
   gap: 10px;
 }
-.team-card-1, .team-card-2, .team-card-3, .team-card-4,
-.team-card-5, .team-card-6, .team-card-7, .team-card-8,
-.team-card-9, .team-card-10{
-  width: 280px;
-  height: 333px;
-}
+
 .button__team-recrutation-2{
   display: flex;
   justify-content: center;
   margin-top: 40px;
 }
-.team-card-11{
-  width: 280px;
-  height: 260px;
-}
-.team-card-deatails{
-  width: 280px;
-  height: 62px;
-}
+
+
 .team-card-deatails p {
-  width: 249px;
+  /* width: 249px; */
   font-size: 12px;
   line-height: 17px;
 }
@@ -2625,7 +2617,7 @@ p{
 }
 .team__recrutation-btn{
   height: 46px;
-  width: 280px;
+  width: 414px;
   padding: 8px 24px;
 }
 .team__more-btn{
@@ -2641,8 +2633,10 @@ p{
 
 
 .contacts-img {
-  width: 280px;
-  height: 260px;
+  width: 100%;
+}
+.contacts__horizontal-card{
+  width: 100%;
 }
 .contacts__info {
   width: 280px;
@@ -2654,13 +2648,13 @@ p{
   padding-left: 5;
 }
 .contacts__card {
-  width: 300px;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   margin-bottom: 80px;
 }
 .contacts__cards-wrapper {
-  width: 100%;
+  /* width: 100%; */
 }
 .contacts li {
   width: 275px;
@@ -2798,10 +2792,10 @@ i {
 }
 .form__section-container{
   margin-top: 0;
-  width: 300px;
+  width: auto;
 }
 .tab-header-mobile {
-  width: 280px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2811,7 +2805,7 @@ i {
   margin: 0 auto;
 }
 .tab-header-mobile > div{
-  width: 137px;
+  width: 197px;
   height: 39px;
   padding-top: 7px;
   text-align:center;
@@ -2835,7 +2829,7 @@ i {
   margin-top: 0;
 }
 .form-input-double{
-  width: 280px;
+  width: 100%;
   margin-top: 0;
   margin-right: 0;
 }
@@ -2845,7 +2839,7 @@ div .form-input label, .form-input-double label{
   margin-bottom: 8px;
 }
 .form-input input, .form-input-double input {
-  width: 280px;
+  width: 100%;
   height: 46px;
   font-size: 12px;
   line-height: 22px;
@@ -2855,14 +2849,14 @@ div .form-input label, .form-input-double label{
   color: #1E1E1C;
 }
 .custom-file-button{
-  width: 280px;
+  width: 100%;
   height: 46px;
   margin-top: 0;
   font-size: 12px;
   line-height: 22px;
 }
 .form-input textarea{
-  width: 280px;
+  width: 100%;
   margin-top: 0;
   padding: 12px 16px;
 }
@@ -2878,14 +2872,14 @@ div .form-input label, .form-input-double label{
 .form__text{
   font-size: 14px;
   line-height: 25px;
-  width: 280px;
+  width: 100%;
   text-align: center;
   padding-top: 0;
   margin-bottom: 16px;
 }
 .form__info-container{
   display: block;
-  width: 280px;
+  width: 100%;
   height: 112px;
 }
 .image__offers-mobile {
@@ -2896,7 +2890,7 @@ div .form-input label, .form-input-double label{
   display: none;
 }
 .form__button{
-  width: 280px;
+  width: 100%;
   margin-left: 0;
   margin-bottom: 0;
   display: flex;
