@@ -2018,9 +2018,11 @@ div .form-input label, .form-input-double label{
   .menu-items {
     margin-left: 255px;
   }
-  
   .information__item {
     gap: 30px;
+  }
+  .accordion__offers {
+    overflow: visible;
   }
   .quote__text{
     padding-left: 0;
