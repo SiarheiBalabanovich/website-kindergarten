@@ -10,7 +10,6 @@ html{
 
 body{
   background-color: var(--primary-white-w-50, #F9F9F9);
-  min-width: 280px;
   overflow-x: hidden;
   font-family: 'Mulish', sans-serif;
 }
@@ -625,7 +624,7 @@ a:hover{
   position: relative;
   width: 403px;
   height: 100%;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .vector__brown-img{
@@ -659,16 +658,16 @@ a:hover{
 #svglog{
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 46%;
+  top: 35%;
   left: 58%;
   width: 212px;
-  height: 204px;
+  height: 165px;
   z-index: 1;
 }
 
 #svgsteps-1{
   position: absolute;
-  top: calc(-14%);
+  top: calc(-38%);
   left: 13%;
   width: 121px;
   height: 84px;
@@ -677,11 +676,11 @@ a:hover{
 
 #svgsteps-2{
   position: absolute;
-  top: calc(-2%);
+  top: calc(-15%);
   left: 42%;
   width: 138px;
   height: 187px;
-  z-index: 0;
+  z-index: -1;
 }
 
 #svgsteps-3{
@@ -779,7 +778,6 @@ a:hover{
 
 .tabs__content-img{
   width: 656px;
-  height: 360px;
   margin-left: 283px;
   margin-bottom: 30px;
   border-radius: 10px;
@@ -1016,6 +1014,7 @@ a:hover{
 }
 
 .recrutation__item-img{
+  max-width: 100%;
   margin-bottom: 0;
 }
 
@@ -1076,7 +1075,7 @@ a:hover{
   grid-template-columns: 362px 362px 362px;
   gap: 30px;
   max-width: 1146px;
-  margin-left: 136px;
+  margin: 0 auto;
 }
 
 
@@ -1190,8 +1189,8 @@ a:hover{
   border-radius: 10px;
   border: 1px solid var(--primary-green, #547E32);
   background: var(--primary-white, #FFF);
-  width: 362px;
-  height: 293px;
+  max-width: 100%;
+  height: 387px;
   margin-bottom: 20px;
 }
 
@@ -1263,7 +1262,7 @@ a:hover{
 .button{
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .button__menu-desktop{
   font-family: 'Mulish', sans-serif;
@@ -1546,10 +1545,11 @@ a:hover{
   background-color: #F9F9F9;
   display: flex;
   flex-direction: row;
+  margin: 0 auto;
 }
 
 .contacts-img {
-  width: 558px;
+  max-width: 558px;
   height: 100%;
 }
 
@@ -2014,8 +2014,105 @@ div .form-input label, .form-input-double label{
 
 
 
+@media screen and (max-width: 1024px) {
+  .menu-items {
+    margin-left: 255px;
+  }
+  
+  .information__item {
+    gap: 30px;
+  }
+  .quote__text{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 200px;
+  }
+  .tabs {
+    margin-left: 0;
+  }
+  .tabs__content-img {
+    width: 512px;
+  }
+  
+  .content-image {
+    margin-left: 0;
+  }
+  .vector__organization {
+  margin-left: 10px;
+  }
+  .organization-text {
+    width: auto;
+  } 
+  
 
+  .row {
+    margin-left: 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  .team-card-1, .team-card-2, .team-card-3, .team-card-4,
+  .team-card-5, .team-card-6, .team-card-7, .team-card-8,
+  .team-card-9, .team-card-10, .team-card-11 {
+    width: 100%;
+  }
+  .contacts__card {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  .button-up {
+    margin-right: 80px;
+  }
+  .text-up {
+    margin-right: 93px;
+  }
+}
 
+@media screen and (max-width: 1280px) {
+
+  .information__item-img {
+    width: 490px;
+  }
+  .swiper-button-next-1 {
+    margin-right: 20px;
+  }
+  .swiper-button-prev-1 {
+    margin-left: -115px;
+  }
+  .row {
+    margin: 0 auto;
+  }
+  
+  .tabs__content-img {
+    width: 512px;
+  }
+  
+  .organization-text {
+    width: auto;
+  }
+  #svglog {
+    width: 160px;
+    height: 110px;
+    top: 30%;
+    left: 60%;
+  }
+  #svgsteps-3 {
+    left: 80%;
+    height: 390px;
+  }
+  #svglizard {
+    left: 83%;
+    height: 460px;
+  }
+  #svglizard-2 {
+    width: 350px;
+  }
+  .contacts__card {
+    margin: 0 auto;
+  }
+}
 
 
 
@@ -2310,7 +2407,7 @@ input:checked ~ nav ul li {
   max-height: 100%;
 }
 .image__offers-mobile {
-  height: 320px;
+  height: auto;
   margin-bottom: 10px;
 }
 .image-container {
@@ -2427,7 +2524,7 @@ p{
   grid-template-columns: 100%;
   margin-left: 0;
   justify-content: center;
-  margin-bottom: -50px;
+  margin-bottom: 150px;
 }
 .tabs__content-box{
   margin-left: 0;
@@ -2435,16 +2532,17 @@ p{
 }
 .tabs__content-img {
   width: 100%; /* Изображение занимает всю ширину столбца */
-  height: 320px;
+  
   margin-left: 0;
   margin-bottom: 0;
+  margin-left: 0;
 }
 .content-image{
   margin-top: 0;
-  width: auto;
-  height: 320px;
+  width: 100%;
   margin-bottom: 20px;
 }
+
 #svglog{
   display: none;
 }
@@ -2555,17 +2653,19 @@ p{
   background-size: cover cover;
 }
 .recrutation__items {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-content: center;
 }
 .recrutation__item{
   margin: 0 auto;
 }
-.recrutation__item-img{
-  height: 320px;
+
+.recrutation__item-img {
+  max-width: 100%;
+  height: auto;
 }
 .recrutation__item-text{
-  height: 130px;
+  height: 150px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -2573,8 +2673,8 @@ p{
   display: none;
 }
 .recrutation__btn {
-  height: 46px;
-  width: 392px;
+  height: 100%;
+  width: 100%;
   padding: 8px 24px;
   margin-top: 30px;
 }
@@ -2589,13 +2689,13 @@ p{
 .team-card-1, .team-card-2, .team-card-3, .team-card-4,
 .team-card-5, .team-card-6, .team-card-7, .team-card-8,
 .team-card-9, .team-card-10, .team-card-11{
-  width: 414px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin: 0;
   gap: 10px;
 }
@@ -2618,8 +2718,8 @@ p{
   line-height: 28px;
 }
 .team__recrutation-btn{
-  height: 46px;
-  width: 414px;
+  height: 100%;
+  width: 100%;
   padding: 8px 24px;
 }
 .team__more-btn{
@@ -2635,8 +2735,8 @@ p{
 
 
 .contacts-img {
-  width: 100%;
-  height: 320px;
+  max-width: 100%;
+  height: auto;
 }
 .contacts__horizontal-card{
   width: 100%;
@@ -2651,7 +2751,8 @@ p{
   padding-left: 5;
 }
 .contacts__card {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
   flex-direction: column;
   align-items: center;
   margin-bottom: 80px;
@@ -2926,6 +3027,17 @@ div .form-input label, .form-input-double label{
   padding-left: 0;
 }
 }
+
+@media screen and (max-width: 560px) {
+  .row {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .recrutation__items {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 
 
