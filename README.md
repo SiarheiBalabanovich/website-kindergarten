@@ -14,4 +14,4 @@ Server-Side Processing using PHP: Data submitted by the user is processed on the
 Email Notifications: After processing the data, the client automatically receives a notification on their email containing all the information from the filled form.
 
 ### Technologies
-In this project I used: CSS (40.9%), HTML (36.6%), JavaScript (22.0%), PHP (0.5%).
+The project incorporates the following technologies: CSS (40.9%), HTML (36.6%), JavaScript (22.0%), PHP (0.5%).
