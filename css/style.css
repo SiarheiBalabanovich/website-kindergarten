@@ -2015,17 +2015,6 @@ div .form-input label, .form-input-double label{
 }
 }
 
-@media screen and (min-width: 1600px) {
-  .vector__organization {
-    margin-left: 225px;
-}
-}
-
-@media screen and (min-width: 1536px) {
-  .vector__organization {
-    margin-left: 194px;
-}
-}
 
 @media screen and (max-width: 1024px) {
   .menu-items {
