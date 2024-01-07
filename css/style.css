@@ -2009,9 +2009,9 @@ div .form-input label, .form-input-double label{
 }
 }
 
-@media screen and (min-width: 1850px) {
+@media screen and (min-width: 1792px) {
   .vector__organization {
-    margin-left: 355px;
+    margin-left: 323px;
 }
 }
 
